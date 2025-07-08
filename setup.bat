@@ -10,7 +10,7 @@ echo.
 REM Verificar que Docker este instalado
 docker --version >nul 2>&1
 if errorlevel 1 (
-    echo [ERROR] Docker no esta instalado. 
+    echo [ERROR] Docker no esta instalado 
     echo Por favor, instala Docker Desktop primero.
     echo.
     pause
